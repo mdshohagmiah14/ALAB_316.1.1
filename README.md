@@ -17,4 +17,23 @@ This project demonstrates **DOM manipulation** using JavaScript by dynamically m
 - Run using **Live Server** in **VS Code**.
 - Ensure CSS custom properties are defined in `style.css`.
 
+---
 
+# ALAB 316.3.1: DOM Manipulation (Part Two)
+
+## Overview
+This part extends **DOM manipulation** by adding interactivity to the navigation menu and handling submenus.
+
+## Features
+- Toggles **submenus** when a main menu item is clicked.
+- Dynamically builds submenu items based on selected menu data.
+- Adds **active** class to highlight selected menu items.
+
+## How It Works
+- Listens for click events on both the main and submenu elements.
+- Toggles the visibility of the submenu by adjusting its `top` position.
+- Updates the content of the main section based on the selected submenu item.
+
+## Notes
+- Ensure the `sub-menu` element is positioned properly for submenu visibility.
+- Use **CSS Flexbox** for layout styling in the navigation menus.
